@@ -28,11 +28,20 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     
     @objc private func didTapAdd() {
+        /* new item */
         let alert = UIAlertController(title: "New Item", message: "Enter new todo work!!", preferredStyle: .alert)
         
+        /* text field */
+        alert.addTextField {
+            field in field.placeholder = "Enter item..."
+        }
+        
+        /* cancel */
         alert.addAction(UIAlertAction(title: "Cancel",
                                       style: .cancel,
                                       handler: nil))
+        
+        /* done */
         alert.addAction(UIAlertAction(title: "Done", style: .default, handler: { (_) in
             
         }))
