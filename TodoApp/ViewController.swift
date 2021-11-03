@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.items = UserDefaults.standard.stringArray(forKey: "items") ?? []
-        title = "Todo List App"
+        title = "Todo List"
         view.addSubview(table)
         table.dataSource = self
         navigationItem.rightBarButtonItem = UIBarButtonItem(

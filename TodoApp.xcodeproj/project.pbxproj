@@ -16,6 +16,7 @@
 		186AB71F27327C8000613DAB /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186AB71E27327C8000613DAB /* TodoAppTests.swift */; };
 		186AB72927327C8000613DAB /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186AB72827327C8000613DAB /* TodoAppUITests.swift */; };
 		186AB72B27327C8000613DAB /* TodoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186AB72A27327C8000613DAB /* TodoAppUITestsLaunchTests.swift */; };
+		186AB7382732856A00613DAB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 186AB7372732856A00613DAB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		186AB72427327C8000613DAB /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186AB72827327C8000613DAB /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		186AB72A27327C8000613DAB /* TodoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		186AB7372732856A00613DAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		186AB6FB27327C7C00613DAB = {
 			isa = PBXGroup;
 			children = (
+				186AB7372732856A00613DAB /* README.md */,
 				186AB70627327C7C00613DAB /* TodoApp */,
 				186AB71D27327C8000613DAB /* TodoAppTests */,
 				186AB72727327C8000613DAB /* TodoAppUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				186AB71427327C7F00613DAB /* LaunchScreen.storyboard in Resources */,
 				186AB71127327C7F00613DAB /* Assets.xcassets in Resources */,
+				186AB7382732856A00613DAB /* README.md in Resources */,
 				186AB70F27327C7C00613DAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
