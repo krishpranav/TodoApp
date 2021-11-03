@@ -30,6 +30,13 @@ class ViewController: UIViewController, UITableViewDataSource {
     @objc private func didTapAdd() {
         let alert = UIAlertController(title: "New Item", message: "Enter new todo work!!", preferredStyle: .alert)
         
+        alert.addAction(UIAlertAction(title: "Cancel",
+                                      style: .cancel,
+                                      handler: nil))
+        alert.addAction(UIAlertAction(title: "Done", style: .default, handler: { (_) in
+            
+        }))
+        
         present(alert, animated: true)
     }
     
