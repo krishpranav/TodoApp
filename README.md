@@ -1,5 +1,5 @@
 # TodoApp
-A simple todo list application built using objc for iOS 
+A simple todo list application built using swift for iOS 
 
 
 ## Building:
